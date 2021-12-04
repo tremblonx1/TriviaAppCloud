@@ -9,5 +9,5 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, _ => {
-    console.log('App deployed at Port ${PORT}');
+    console.log('App deployed at Port: ', {PORT});
 });
